@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Container, Menu, Message, Segment } from 'semantic-ui-react'
+import Video from './Video'
 
 export class ComponenteMenu extends Component {
   state = {}
@@ -45,6 +46,7 @@ export class ComponenteMenu extends Component {
         </Segment>
         <Segment>
           Insertar un video de semantic ui
+          <Video/>
         </Segment>  
       </Segment>
 
