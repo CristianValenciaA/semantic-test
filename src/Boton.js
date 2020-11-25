@@ -16,6 +16,12 @@ const Boton = () => (
         <Icon name='table' />
       </Button.Content>
     </Button>
+    <Button animated='vertical' size='mini' href="https://github.com/CristianValenciaA/semantic-test">
+      <Button.Content hidden>Github de pagina</Button.Content>
+      <Button.Content visible>
+        <Icon name='github' />
+      </Button.Content>
+    </Button>
   </div>
 )
 
