@@ -45,7 +45,6 @@ export class ComponenteMenu extends Component {
           </Container>
         </Segment>
         <Segment>
-          Insertar un video de semantic ui
           <Video/>
         </Segment>  
       </Segment>
